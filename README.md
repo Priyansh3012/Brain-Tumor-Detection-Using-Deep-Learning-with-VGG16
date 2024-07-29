@@ -65,7 +65,10 @@ This project involves developing a deep learning model to classify MRI brain sca
 
   7. **Visualization:**
       
-      * Sample images are displayed with their original, augmented, and cropped versions using subplots to provide insight into preprocessing effectiveness.             
+      * Sample images are displayed with their original, augmented, and cropped versions using subplots to provide insight into preprocessing effectiveness.
+
+      ![image](https://github.com/user-attachments/assets/0a7bc61a-f183-4afb-a129-cf350a6b6ce0)
+               
 
   8. **Model Prediction on New Data:**
       
