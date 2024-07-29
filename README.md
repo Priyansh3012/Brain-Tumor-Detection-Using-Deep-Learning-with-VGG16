@@ -33,32 +33,32 @@ This project involves developing a deep learning model to classify MRI brain sca
         * **Augmentation:** Images are augmented using techniques such as rotation, width and height shifts, and horizontal flips to increase dataset variability.
         * **Cropping:** Images are cropped to focus on regions of interest (ROIs) that potentially contain tumor information.
      
-  4. **Data Splitting:**
+  3. **Data Splitting:**
      
        * The dataset is shuffled and split into training and testing sets using an 90/10 ratio to ensure robust evaluation of model performance.
 
-  6. **Model Architecture:**
+  4. **Model Architecture:**
      
        * **VGG16 Model:** A pre-trained VGG16 model is fine-tuned for binary classification. The top layers are replaced with a global average pooling layer, followed by fully connected 
                           layers, dropout for regularization, and a final sigmoid activation function for binary output.
          
-  8. **Model Training:**
+  5. **Model Training:**
      
       * **Compilation:** The model is compiled with the Adam optimizer and binary cross-entropy loss.
       * **Training:** The model is trained on the augmented dataset, including original, augmented, and cropped images.
 
-  10.  **Evaluation:**
+  6. **Evaluation:**
 
-     * The trained model is evaluated on the test set to determine its accuracy, precision, recall, and F1-score.
-     * Confusion matrices are used to visualize the model's performance.
+      * The trained model is evaluated on the test set to determine its accuracy, precision, recall, and F1-score.
+      * Confusion matrices are used to visualize the model's performance.
 
-  12. **Visualization:**
+  7. **Visualization:**
       
-     * Sample images are displayed with their original, augmented, and cropped versions using subplots to provide insight into preprocessing effectiveness.             
+      * Sample images are displayed with their original, augmented, and cropped versions using subplots to provide insight into preprocessing effectiveness.             
 
-  14. **Model Prediction on New Data:**
+  8. **Model Prediction on New Data:**
       
-     * The model is used to predict new MRI scans, providing class labels and confidence scores for brain tumor detection.
+      * The model is used to predict new MRI scans, providing class labels and confidence scores for brain tumor detection.
 
 ## Conclusion: 
 
