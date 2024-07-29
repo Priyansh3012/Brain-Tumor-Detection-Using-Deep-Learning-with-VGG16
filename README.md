@@ -44,13 +44,13 @@ This project involves developing a deep learning model to classify MRI brain sca
          
   8. **Model Training:**
      
-    * **Compilation:** The model is compiled with the Adam optimizer and binary cross-entropy loss.
-    * **Training:** The model is trained on the augmented dataset, including original, augmented, and cropped images.
+      * **Compilation:** The model is compiled with the Adam optimizer and binary cross-entropy loss.
+      * **Training:** The model is trained on the augmented dataset, including original, augmented, and cropped images.
 
   10.  **Evaluation:**
 
-    * The trained model is evaluated on the test set to determine its accuracy, precision, recall, and F1-score.
-    * Confusion matrices are used to visualize the model's performance.
+     * The trained model is evaluated on the test set to determine its accuracy, precision, recall, and F1-score.
+     * Confusion matrices are used to visualize the model's performance.
 
   12. **Visualization:**
       
@@ -62,7 +62,7 @@ This project involves developing a deep learning model to classify MRI brain sca
 
 ## Conclusion: 
 
-   This project demonstrates the application of transfer learning in medical image analysis, showcasing how pre-trained models like VGG16 can be adapted for specialized tasks such as 
+   * This project demonstrates the application of transfer learning in medical image analysis, showcasing how pre-trained models like VGG16 can be adapted for specialized tasks such as 
    brain tumor detection. The model provides a foundation for developing more advanced and accurate diagnostic tools, highlighting the potential of deep learning in healthcare.
 
 ## Future Work:
