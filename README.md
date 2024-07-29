@@ -49,8 +49,18 @@ This project involves developing a deep learning model to classify MRI brain sca
 
   6. **Evaluation:**
 
+      * **Validation Accuracy and Loss:** The model achieved a validation accuracy of 98.69%, indicating a high level of precision in predicting the presence or absence of brain tumors. 
+                                      Validation loss and training loss were also monitored to track the model's performance and convergence during training.
+
+      * **Training Accuracy and Loss:** The training accuracy and loss were calculated to assess how well the model fit the training data. These metrics help identify potential 
+                                        overfitting, where the model performs well on training data but not on unseen data.
+
+      * **Overfitting Analysis:** Graphs of training and validation accuracy and loss were plotted to visualize overfitting. A small gap between training and validation curves suggests 
+                                  the model generalizes well.
+
       * The trained model is evaluated on the test set to determine its accuracy, precision, recall, and F1-score.
-      * Confusion matrices are used to visualize the model's performance.
+        
+      * Confusion matrices are used to visualize the model's performance.  
 
   7. **Visualization:**
       
