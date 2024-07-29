@@ -60,7 +60,8 @@ This project involves developing a deep learning model to classify MRI brain sca
 
       * The trained model is evaluated on the test set to determine its accuracy, precision, recall, and F1-score.
         
-      * Confusion matrices are used to visualize the model's performance.  
+      * **Confusion Matrix:** Confusion matrices were plotted to provide a detailed breakdown of true positives, true negatives, false positives, and false negatives. This visualization 
+                              offers insights into the types of errors the model makes and helps ensure it is reliable in practical applications. 
 
   7. **Visualization:**
       
