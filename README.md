@@ -55,8 +55,10 @@ This project involves developing a deep learning model to classify MRI brain sca
       * **Training Accuracy and Loss:** The training accuracy and loss were calculated to assess how well the model fit the training data. These metrics help identify potential 
                                         overfitting, where the model performs well on training data but not on unseen data.
 
-      * **Overfitting Analysis:** Graphs of training and validation accuracy and loss were plotted to visualize overfitting. A small gap between training and validation curves suggests 
-                                  the model generalizes well.
+      * **Overfitting Analysis:** Graphs of training and validation accuracy and loss were plotted to visualize overfitting. A small gap between training and validation curves suggests the model generalizes well.
+    
+        ![image](https://github.com/user-attachments/assets/f26debdb-8712-4763-a32b-c2cc1eb6c979)
+
 
       * The trained model is evaluated on the test set to determine its accuracy, precision, recall, and F1-score.
         
