@@ -4,6 +4,7 @@ This project involves developing a deep learning model to classify MRI brain sca
 ## Tools and Libraries Used:
 **Programming Language:** 
    * Python
+     
 **Libraries:**
    * TensorFlow
    * Keras
